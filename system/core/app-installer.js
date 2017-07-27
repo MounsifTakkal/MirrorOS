@@ -31,7 +31,7 @@ var AppInstaller = function() {
 			manifest_file = JSON.parse(fs.readFileSync(temp_dir+'/manifest.json', 'utf8'));
 
 			//5 - Create dir in "apps" dir with manifest package name
-			var new_dir = MAIN_DIR+'\apps\'+manifest_file.package;
+			var new_dir = MAIN_DIR+'\apps\'+'manifest_file.package;'
 			makeDir(new_dir);
 
 			//6 - Copy files to that dir
