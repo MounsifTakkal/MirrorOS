@@ -12,6 +12,11 @@ Install pyaudio
 
 ```sudo apt-get install python-pyaudio python3-pyaudio```
 
+Install nodejs with npm bundle
+
+```curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -```
+```sudo apt-get install -y nodejs```
+
 Clone repo
 
 ```git clone https://github.com/s6joui/MirrorOS```
